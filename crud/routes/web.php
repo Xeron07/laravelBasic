@@ -21,4 +21,13 @@ Route::get('/demo',function(){
     return view('demo');
 });
 
+Route::get("/add",'AddStudent@Index');
+
+Route::post("/addStudent",'AddStudent@Add');
+
+Route::get("/home","UserController@Index");
+Route::get("/home/{id}","UserController@User");
+
+Route::get("/delete/{id}","DeleteController@User");
+
 

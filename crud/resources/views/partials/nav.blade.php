@@ -5,7 +5,7 @@
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#">Add Student</a>
+      <a class="nav-link" href="/add">Add Student</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">Student list</a>

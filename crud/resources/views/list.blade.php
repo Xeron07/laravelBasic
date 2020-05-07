@@ -30,7 +30,7 @@
             <td>{{$d->address}}</td>
             <td>{{$d->phone_no}}</td>
             <td>{{$d->total_marks}}</td>
-            <td><a href="/{{$d->dId}}" class="btn btn-info btn-sm">View</a></td>
+            <td><a href="/home/{{$d->dId}}" class="btn btn-info btn-sm">View</a></td>
           <td><button type="button" onclick="location.href='/delete/{{$d->dId}}'" class="btn btn-danger btn-sm">Remove</button></td>
           </tr>
           @endforeach

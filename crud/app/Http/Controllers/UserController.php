@@ -18,10 +18,11 @@ class UserController extends Controller
   }
 
   public function User(Request $req,$id){
-    $data=DB::table('users')->where("users.uId","=",$id)
+    $data=DB::table('users')
     ->join("data","data.dId","=","users.uId")
+    ->where("users.uId","=",$id)
     ->get();
 
-    return view('list')->with("data",$data);
+    return view('student')->with("data",$data[0]);
   }
 }

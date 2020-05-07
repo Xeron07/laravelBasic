@@ -1,6 +1,7 @@
 @extends('mainLayout')
 @section('content')
 <div class="container">
+    <br/>
     <div class="card">
         <div class="card-header">Student info</div>
         <div class="card-body">
@@ -12,6 +13,7 @@
         </div>
 
       </div>
+      <br/>
 </div>
 @endsection
 <b></b>

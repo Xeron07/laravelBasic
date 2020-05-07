@@ -5,7 +5,7 @@
 
 ###Run the Following command
 
-Some basiccommands are:
+Some basic commands are:
 ```
 cd crud
 compose install

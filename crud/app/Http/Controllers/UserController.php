@@ -16,4 +16,12 @@ class UserController extends Controller
 
     return view('list')->with("data",$data);
   }
+
+  public function User(Request $req,$id){
+    $data=DB::table('users')->where("users.uId","=",$id)
+    ->join("data","data.dId","=","users.uId")
+    ->get();
+
+    return view('list')->with("data",$data);
+  }
 }

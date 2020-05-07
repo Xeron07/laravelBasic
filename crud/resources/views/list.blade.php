@@ -6,6 +6,15 @@
     <h2 style="text-align: center">Student Data</h2>
 
 
+    @if(Session::has('removeMessage'))
+<div class="alert alert-warning">
+  <strong>Success!</strong> {{ Session::get('removeMessage') }}
+</div>
+<br/>
+
+@endif
+
+
     <input class="form-control" id="myInput" type="text" placeholder="Search..">
     <br/>
     <table class="table table-dark table-striped">

@@ -17,6 +17,7 @@
           <th>Address</th>
           <th>Phone No</th>
           <th>Total Marks</th>
+          <th>View</th>
           <th>Delete</th>
         </tr>
       </thead>
@@ -29,7 +30,8 @@
             <td>{{$d->address}}</td>
             <td>{{$d->phone_no}}</td>
             <td>{{$d->total_marks}}</td>
-          <td><a href="/delete/{{$d->dId}}" class="btn btn-danger btn-sm">Remove</a></td>
+            <td><a href="/{{$d->dId}}" class="btn btn-info btn-sm">View</a></td>
+          <td><button type="button" onclick="location.href='/delete/{{$d->dId}}'" class="btn btn-danger btn-sm">Remove</button></td>
           </tr>
           @endforeach
 

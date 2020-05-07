@@ -8,10 +8,10 @@
       <a class="nav-link" href="/add">Add Student</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Student list</a>
+      <a class="nav-link" href="/home">Student list</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Demo</a>
+      <a class="nav-link" href="/demo">Demo</a>
     </li>
   </ul>
 </nav>

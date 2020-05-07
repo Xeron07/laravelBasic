@@ -1,9 +1,13 @@
 
-# Installation
+# Laravel Crud
 
-## First clone the project
+###### Basic crud operation with basic partial layout 
 
-### Run the Following command
+## Installation
+
+### First clone the project
+
+##### Run the Following command(s)
 
 Some basic commands are:
 ```
@@ -16,7 +20,7 @@ Run The Project:
 php artisan serve
 ```
 
-# TB
+## Solution
 
 If you get any error similar to token generate error
 
